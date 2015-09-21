@@ -1,8 +1,8 @@
-package br.com.pep.service;
+package br.com.lab.service;
 
 import java.util.List;
 
-import br.com.pep.model.Pessoa;
+import br.com.lab.model.Pessoa;
 
 public interface PessoaService {
 

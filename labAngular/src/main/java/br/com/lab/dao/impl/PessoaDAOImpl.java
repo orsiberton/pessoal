@@ -1,3 +1,4 @@
+package br.com.lab.dao.impl;
 //package br.com.pep.dao.impl;
 //
 //import java.util.List;

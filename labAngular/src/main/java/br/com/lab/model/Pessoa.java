@@ -1,4 +1,4 @@
-package br.com.pep.model;
+package br.com.lab.model;
 
 import java.io.Serializable;
 

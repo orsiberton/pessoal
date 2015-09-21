@@ -1,4 +1,4 @@
-package br.com.pep.config;
+package br.com.lab.config;
 
 import java.util.Properties;
 

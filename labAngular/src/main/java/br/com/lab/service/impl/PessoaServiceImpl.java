@@ -1,4 +1,4 @@
-package br.com.pep.service.impl;
+package br.com.lab.service.impl;
 
 import java.util.List;
 
@@ -6,9 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import br.com.pep.dao.PessoaDAO;
-import br.com.pep.model.Pessoa;
-import br.com.pep.service.PessoaService;
+import br.com.lab.dao.PessoaDAO;
+import br.com.lab.model.Pessoa;
+import br.com.lab.service.PessoaService;
 
 @Service("pessoaService")
 @Transactional

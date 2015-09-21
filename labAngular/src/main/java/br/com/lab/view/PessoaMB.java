@@ -1,12 +1,12 @@
-package br.com.pep.view.mb;
+package br.com.lab.view;
 
 import javax.annotation.PostConstruct;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.ViewScoped;
 
-import br.com.pep.model.Pessoa;
-import br.com.pep.service.PessoaService;
+import br.com.lab.model.Pessoa;
+import br.com.lab.service.PessoaService;
 
 @ManagedBean(name = "pessoaMB")
 @ViewScoped

@@ -1,4 +1,4 @@
-package br.com.pep.view.mb;
+package br.com.lab.view;
 
 import java.io.Serializable;
 import java.text.MessageFormat;
