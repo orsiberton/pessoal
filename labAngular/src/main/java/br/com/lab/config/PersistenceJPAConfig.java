@@ -21,19 +21,19 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@EnableJpaRepositories(basePackages = "br.com.pep")
-@ComponentScan(basePackages = "br.com.pep", excludeFilters = @Filter(Configuration.class) )
+@EnableJpaRepositories(basePackages = "br.com.lab")
+@ComponentScan(basePackages = "br.com.lab", excludeFilters = @Filter(Configuration.class) )
 public class PersistenceJPAConfig {
 
     private static final String DATA_SOURCE_PASSWORD = "root";
 
     private static final String DATA_SOURCE_USERNAME = "postgres";
 
-    private static final String DATA_SOURCE_URL = "jdbc:postgresql://127.0.0.1:5432/pep";
+    private static final String DATA_SOURCE_URL = "jdbc:postgresql://127.0.0.1:5432/lab";
 
     private static final String DATA_SOURCE_DRIVER_CLASS_NAME = "org.postgresql.Driver";
 
-    private static final String[] PACKAGES_TO_SCAN = { "br.com.pep.model" };
+    private static final String[] PACKAGES_TO_SCAN = { "br.com.lab.model" };
 
     private static final String[][] PROPERTIES = { { "hibernate.hbm2ddl.auto", "update" },
                     { "hibernate.dialect", "org.hibernate.dialect.PostgreSQLDialect" } };
